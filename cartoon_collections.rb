@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls { |value| 
+  planeteer_calls { |value| value.
   # Your code here
 end
 
