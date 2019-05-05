@@ -5,8 +5,8 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls { |value| value.capitalize + 
-  # Your code here
+  planeteer_calls.collect { |value| value.capitalize + "!" }
+  puts planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
