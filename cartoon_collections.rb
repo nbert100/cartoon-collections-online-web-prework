@@ -9,7 +9,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
- array.any? {|word| world.length
+ array.any? {|word| world.length > 4
   # Your code here
 end
 
