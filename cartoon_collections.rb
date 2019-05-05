@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  array
+  planeteer_calls
   # Your code here
 end
 
