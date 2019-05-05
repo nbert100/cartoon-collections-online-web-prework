@@ -15,6 +15,6 @@ end
 
 def find_the_cheese(array)# code an argument here
    cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find(ifnone = nil) {|array| array.include? (cheese_types) }
+  array.find(ifnone = nil) {|string| string.include? (cheese_types) }
    
 end
